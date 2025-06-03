@@ -1,2 +1,0 @@
-# RijuJEE
-RijuJEE is fun!

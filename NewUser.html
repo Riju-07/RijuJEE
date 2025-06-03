@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <pre>
+            <h1><b><u>Welcome to RJEE New User Registration</u></b></h1>
+            <h4>Enter your details below to create a new account:</h4>
+            <br>
+            Enter your full name: <input type="text" placeholder="Please enter your name" required height="50px">   
+            <br>
+            Enter your date of birth: <input type="date" required height="50px">
+            <br>
+            Gender:
+            <label for="1"><input type="radio" value="Male" name="Gender" id="1"> Male </label>
+            <label for="2">
+            <input type="radio" value="Female" name="Gender" id="2"> Female </label>
+            <br>
+            Enter your phone number: <input type="tel" placeholder="Please enter your phone number" required height="100px" width="100px" pattern="[0-9]{10}" title="Phone number must be 10 digits long" maxlength="10" minlength="10"> 
+            <br>
+            Enter your email: <input type="email" placeholder="Please enter your email" required height="50px"> 
+            <br>
+            Enter your password: <input type="password" placeholder="Please enter your password" required height="50px" width="100px" pattern=".{8,}" title="Password must be at least 8 characters long">
+            <br>
+            Confirm your password: <input type="password" placeholder="Please confirm your password" required height="50px" width="100px" pattern=".{8,}" title="Password must be at least 8 characters long">
+            <br>
+           
+            Please select your preferred exam center:<br>
+            <select required>
+                <option value="" disabled selected>Select your exam center</option>
+                <option value="center1">Kolkata</option>
+                <option value="center2">Delhi</option>
+                <option value="center3">Mumbai</option>
+                <option value="center4">Bangalore</option>
+                <option value="center5">Chennai</option>
+                <option value="center6">Hyderabad</option>
+                <option value="center7">Pune</option>
+                <option value="center8">Ahmedabad</option>
+                <option value="center9">Jaipur</option>
+                <option value="center10">Lucknow</option>
+            </select>
+            <br>
+            <input type="submit" value="Register" style="height: 50px; width: 100px; background-color: #0089fa; color: white; border: none; border-radius: 5px; cursor: pointer; " onclick="window.location.href='Successful.html'">
+            <br>
+            <h3>Already have an account? <a href="ApplicationPortal.html" onclick="window.location.href='ApplicationPortal.html'">Click here to log in</a></h3>
+        </pre>
+</body>
+</html>
